@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const contactForm = document.getElementById('contactForm');
     contactForm.addEventListener('submit', function (event) {
       event.preventDefault();
-      alert('Form submitted!');
+      alert('Hade det här varit verklighet hade ditt meddelande skickats!');
       contactFormContainer.style.display = 'none';
     });
   });
